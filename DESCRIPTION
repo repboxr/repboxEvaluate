@@ -1,0 +1,28 @@
+Package: repboxEvaluate
+Type: Package
+Title: Adaption of evaluate package version 0.23.01 to repbox
+Version: 0.23.1
+Authors@R: c(
+    person("Sebastian", "Kranz", role = "aut"),
+    person("Hadley", "Wickham", role = "aut"),
+    person("Yihui", "Xie", role = c("aut", "cre"), email = "xie@yihui.name", comment = c(ORCID = "0000-0003-0645-5666")),
+    person("Michael", "Lawrence", role = "ctb"),
+    person("Thomas", "Kluyver", role = "ctb"),
+    person("Jeroen", "Ooms", role = "ctb"),
+    person("Barret", "Schloerke", role = "ctb"),
+    person("Adam", "Ryczkowski", role = "ctb"),
+    person("Hiroaki", "Yutani", role = "ctb"),
+    person("Michel", "Lang", role = "ctb"),
+    person("Karolis", "Koncevičius", role = "ctb"),
+    person(given = "Posit Software, PBC", role = c("cph", "fnd"))
+    )
+Description: Parsing and evaluation tools that make it easy to recreate the
+    command line behaviour of R.
+License: MIT + file LICENSE 
+Depends: restorepoint,
+    R (>= 3.0.2)
+Imports:
+    methods
+RoxygenNote: 7.2.3
+Encoding: UTF-8
+
