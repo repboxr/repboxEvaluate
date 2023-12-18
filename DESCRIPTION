@@ -5,7 +5,7 @@ Version: 0.23.1
 Authors@R: c(
     person("Sebastian", "Kranz", role = "aut", email = "sebastian.kranz@uni-ulm.de"),
     person("Hadley", "Wickham", role = "aut"),
-    person("Yihui", "Xie", role = c("aut")),
+    person("Yihui", "Xie", role = "aut"),
     person("Michael", "Lawrence", role = "ctb"),
     person("Thomas", "Kluyver", role = "ctb"),
     person("Jeroen", "Ooms", role = "ctb"),
