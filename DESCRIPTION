@@ -3,7 +3,7 @@ Type: Package
 Title: Adaption of evaluate package version 0.23.01 to repbox
 Version: 0.23.1
 Authors@R: c(
-    person("Sebastian", "Kranz", role = "aut", email = "sebastian.kranz@uni-ulm.de"),
+    person("Sebastian", "Kranz", role = c("aut","cre"), email = "sebastian.kranz@uni-ulm.de"),
     person("Hadley", "Wickham", role = "aut"),
     person("Yihui", "Xie", role = "aut"),
     person("Michael", "Lawrence", role = "ctb"),
