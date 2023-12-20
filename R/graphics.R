@@ -20,7 +20,7 @@ plot_snapshot <- local({
       return(NULL)
     }
 
-    if (is.empty(plot)) return(NULL)
+    if (is.plot.empty(plot)) return(NULL)
     last_plot <<- plot
     plot
   }
@@ -51,7 +51,7 @@ empty_calls <- c(
   sprintf("C_%s", c(empty_calls, "strWidth", "strHeight", "plot_window"))
 )
 
-is.empty <- function(x) {
+is.plot.empty <- function(x) {
   if (is.null(x)) return(TRUE)
 
   pc <- plot_calls(x)
